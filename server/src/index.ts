@@ -2,11 +2,11 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import authRoutes from './routes/auth';
-import packagesRoutes from './routes/packages';
-import portfoliosRoutes from './routes/portfolios';
-import contentRoutes from './routes/content';
-import uploadRoutes from './routes/upload';
+import authRoutes from './routes/auth.js';
+import packagesRoutes from './routes/packages.js';
+import portfoliosRoutes from './routes/portfolios.js';
+import contentRoutes from './routes/content.js';
+import uploadRoutes from './routes/upload.js';
 import path from 'path';
 import fs from 'fs';
 
